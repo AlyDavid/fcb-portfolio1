@@ -1,0 +1,39 @@
+/*Universal Selector*/
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#profile {
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+}
+
+body {
+	background-color: #04FFE1;
+	background-color: #A7FFFE;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2371cfc0' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%231e589c' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2361c8ae' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%231b4d96' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%235dbcb5' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23164584' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%234dbaa5' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23106374' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%2343b1a3' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%230d3a6f' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%2332aa97' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23082763' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#landing {
+	/*vh- viewport height */
+	height: 80vh;
+
+	/*This will make all the child elements become flexible that allows them to
+	occupy space enought for the content of the element and at the same time will
+	have the elements appear beside each other*/
+	display: flex;
+	flex-direction: column;
+
+	/*aligns the elements horizontally*/
+	justify-content: center;
+
+	/*aligns the elements vertically*/
+	align-items: center;
+}
